@@ -7,6 +7,8 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
+
+
     # Ваш код, который заполняет обязательные поля
     user_name = browser.find_element(By.XPATH, '/html/body/div/form/div[1]/div[1]/input')
     user_name.send_keys('Natali')
